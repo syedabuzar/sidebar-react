@@ -16,7 +16,9 @@ function Navbar() {
           <Link to='#' className='menu-bars'>
             <FaIcons.FaBars onClick={showSideBar} />
           </Link>
+          <h1 className='navbar_text'>Muhammad Abuzar</h1>
         </div>
+
         <nav className={sideBar ? 'nav-menu active' : 'nav-menu'}>
           <ul className='nav-menu-items' onClick={showSideBar}>
             <li className='navbar-toggle'>
